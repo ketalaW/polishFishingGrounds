@@ -1,0 +1,31 @@
+{
+	"name": "polishfishinggrounds",
+	"version": "0.0.1",
+	"description": "Polskie łowiska",
+	"main": "index.js",
+	"scripts": {
+		"start": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ketalaW/polishFishingGrounds.git"
+	},
+	"keywords": [
+		"game"
+	],
+	"author": "Michał Walatek",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/ketalaW/polishFishingGrounds/issues"
+	},
+	"homepage": "https://github.com/ketalaW/polishFishingGrounds#readme",
+	"devDependencies": {
+		"typescript": "5.7.3",
+		"vite": "6.0.11"
+	},
+	"dependencies": {
+		"excalibur": "0.30.3"
+	}
+}
