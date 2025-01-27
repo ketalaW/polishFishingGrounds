@@ -9,7 +9,6 @@ export class Hero extends ex.Actor {
 			pos: ex.vec(200, 300),
 			width: 32,
 			height: 32,
-			//	color: ex.Color.Yellow,
 		});
 	}
 	override onCollisionStart(_self: ex.Collider, other: ex.Collider): void {
